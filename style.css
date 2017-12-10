@@ -1,0 +1,129 @@
+.navbar {
+
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #c7254e;
+    color: #000000;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+
+    background-color: #c7254e;
+    color: #ffffff;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+
+    background-color: #c7254e;
+    color: #ffffff;
+
+}
+
+.navbar-inverse .navbar-nav li a {
+
+    color: #ffffff;
+}
+
+.navbar-brand {
+
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px 30px;
+}
+
+.navbar-brand > img {
+
+    display: block;
+    max-height: 100%;
+}
+
+.navbar-inverse {
+
+    border: 0;
+}
+
+.carousel-caption {
+
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+
+}
+
+.btn {
+
+    font-size: 18px;
+    background-color: #c7254e;
+    color: #ffffff;
+    padding: 15px 20px;
+    border: 2px;
+    border-radius: 8px;
+
+}
+
+.icon {
+
+    max-width: 200px;
+    margin: 1% auto;
+    border-radius: 5%;
+
+}
+
+.container {
+
+    margin: 4% auto;
+
+}
+
+footer {
+
+    width: 100%;
+    background-color: #c7254e;
+    padding: 3%;
+    color: #000000;
+
+}
+
+.fa {
+
+    padding: 20px;
+    font-size: 30px;
+    color: #ffffff;
+
+}
+
+.fa:hover {
+
+    color: #dedede;
+    text-decoration: none;
+}
+
+@media (max-width: 900px) {
+    .fa {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+
+    .icon {
+        max-width: 150px;
+    }
+
+    h2 {
+        font-size: 1.7em;
+
+    }
+
+}
